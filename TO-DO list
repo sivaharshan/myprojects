@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="todo-list">
+        <h2>To-Do List</h2>
+        <form id="add-todo" onsubmit="addTodo()">
+          <input type="text" id="new-todo" placeholder="Enter a new task">
+          <button type="submit">Add</button>
+        </form>
+        <ul id="todos"></ul>
+      </div>
+      <script>
+        var input = document.getElementById("new-todo");
+        var todos = document.getElementById("todos");
+
+       function addTodo() {
+       event.preventDefault();
+       var newTodo = input.value;
+       input.value = "";
+       var li = document.createElement("li");
+       li.innerHTML = newTodo;
+       var deleteBtn = document.createElement("button");
+       deleteBtn.innerHTML = "Delete";
+       deleteBtn.onclick = function() {
+       li.remove();
+    }
+       li.appendChild(deleteBtn);
+       todos.appendChild(li);
+    }
+
+      </script>
+</body>
+</html>
+//CSS
+#todo-list {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #add-todo input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #add-todo button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #todos li {
+    list-style: none;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+  
