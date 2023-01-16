@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <header>TECHNICAL DOCUMENTATION</header>
+        <a class="nav-link" href="#HTML">HTML</a>
+        <a class="nav-link" href="#CSS">CSS</a>
+        <a class="nav-link" href="#BOOTSTARP">BOOTSTARP</a>
+        <a class="nav-link" href="#JAVASCRIPT">JAVASCRIPT</a>
+        <a class="nav-link" href="#PYTHON">PYTHON</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section"
+        id="HTML">
+            <header>HTML</header>
+            <P>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+                Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+                
+                HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes, and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as   directly introduce content into the page. Other tags such as . Browsers do not display the HTML tags but use them to interpret the content of the page. in collaboration with javascript.</P>
+                <P>HTML is a markup language that web browsers use to interpret and compose text, images, and other material into visual or audible web pages. Default characteristics for every item of HTML markup are defined in the browser, and these characteristics can be altered or enhanced by the web page designer's additional use of CSS. Many of the text elements are found in the 1988 ISO technical report TR 9537 Techniques for using SGML, which in turn covers the features of early text formatting languages such as that used by the RUNOFF command developed in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system: these formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with also the separation of structure and markup; HTML has been progressively moved in this direction with CSS</P>
+        </section>
+        <section class="main-section"
+        id="CSS">
+            <header>CSS</header>
+            <P>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+                CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+                
+                Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.</P>
+                <P>The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.
+
+                    The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]
+                    
+                    In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL.</P>
+        </section>
+        <section class="main-section"
+        id="BOOTSTARP">
+            <header>BOOTSTARP</header>
+            <P>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+
+                As of July 2022, Bootstrap is the eighth most starred project on GitHub, with over 158,000 stars.</P>
+                <P>Bootstrap is an HTML, CSS and JS Library that focuses on simplifying the development of informative web pages (as opposed to web apps). The primary purpose of adding it to a web project is to apply Bootstrap's choices of color, size, font and layout to that project. As such, the primary factor is whether the developers in charge find those choices to their liking. Once added to a project, Bootstrap provides basic style definitions for all HTML elements. The result is a uniform appearance for prose, tables and form elements across web browsers. In addition, developers can take advantage of CSS classes defined in Bootstrap to further customize the appearance of their contents. For example, Bootstrap has provisioned for light- and dark-colored tables, page headings, more prominent pull quotes, and text with a highlight.
+
+                    Bootstrap also comes with several JavaScript components which do not require other libraries like jQuery. They provide additional user interface elements such as dialog boxes, tooltips, progress bars, navigation drop-downs, and carousels. Each Bootstrap component consists of an HTML structure, CSS declarations, and in some cases accompanying JavaScript code. They also extend the functionality of some existing interface elements, including for example an auto-complete function for input fields.</P>
+        </section>
+        <section class="main-section"
+        id="JAVASRCIPT">
+            <header>JAVASCRIPT</header>
+            <P>JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
+
+                JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[10] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).</P>
+                <P>The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+
+                    JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.
+                    
+                    Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.</P>
+        </section>
+        <section class="main-section"
+        id="PYTHON">
+            <header>PYTHON</header>
+            <P>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+
+                Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library</P>
+                <P>Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions. Python 2 was discontinued with version 2.7.18 in 2020.
+
+                    Python consistently ranks as one of the most popular programming languages</P>
+        </section>
+
+
+    </main>
+</body>
+</html>
+
+//css
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #4d4e53;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+header{
+    color: black;
+    font-weight: bold;
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 22%;
+    height: 100%;
+    border-right: solid;
+    border-color: #b3b5b6;
+    overflow-y: auto;
+}
+#navbar header{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    font-size: 2em;
+}
+.nav-link{
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid;
+    padding: 12px 30px;
+    font-size: 18px;
+}
+#main-doc{
+    position: absolute;
+    margin-left: 340px;
+    padding: 40px;
+}
+section header{
+    font-size: 1.9em;
+
+}
+.main-section header{
+    margin-bottom: 20px;
+}
+.main-section p{
+    margin-bottom: 18px;
+}
+@media screen and (max-width:600px) {
+    #navbar{
+        display: flex;
+    }
+}
